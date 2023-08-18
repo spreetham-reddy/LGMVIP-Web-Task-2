@@ -28,13 +28,13 @@ class App extends Component {
         <nav className="navbar navbar-expand-lg navbar-dark  m-3">
           <div className="container">
             <span>
-              <img src = "https://res.cloudinary.com/do3biygrm/image/upload/v1692347146/React-icon.svg_d9kr78.png />
-              <h1>S.Preetham Reddy</h1>
+              <img src="https://res.cloudinary.com/do3biygrm/image/upload/v1692347146/React-icon.svg_d9kr78.png" />
+              <h1>React JS</h1>
             </span>
             <button onClick={this.showUsers}>Get Users</button>
           </div>
         </nav>
-
+        <p> Done By: Suddireddy Preetham Reddy</p>
         <Users loading={this.state.loading} users={this.state.users_data} />
       </>
     );
