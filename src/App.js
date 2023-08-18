@@ -28,6 +28,7 @@ class App extends Component {
         <nav className="navbar navbar-expand-lg navbar-dark  m-3">
           <div className="container">
             <span>
+              <img src = "https://res.cloudinary.com/do3biygrm/image/upload/v1692347146/React-icon.svg_d9kr78.png />
               <h1>S.Preetham Reddy</h1>
             </span>
             <button onClick={this.showUsers}>Get Users</button>
